@@ -60,12 +60,22 @@ a{
     width: 700px;
     background-color: fuchsia;
     height: 300px;
+    border: 1px black dashed;
 }
 /* ENDFIRSTSECTION */
 
 /* MAIN */
 
 /* CONTENITOR SECTION */
+.container {
+    width:60% ;
+    margin: 0 auto;
+    display: flex;
+}
+
+.rv {
+    flex-direction: row-reverse;
+}
 .white {
     height: 400px;
     background-color: white;
@@ -85,7 +95,7 @@ a{
 }
 
 .big-gray {
-    height: 800px;
+    height: 750px;
     background-color: lightgray;
     display: flex;
     justify-content: center;
@@ -93,19 +103,79 @@ a{
 }
 /* SQUARE */
 .blue {
-    height: 300px;
-    width: 500px;
+    height: 350px;
+    width: 60%;
     background-color: rgb(20, 67, 194);
+    
 }
 
 .pink {
-    height: 300px;
-    width: 350px;
+    height: 350px;
+    width: 40%;
     background-color: pink;
+    
 }
 
 .green {
     height:700px;
-    width: 850px;
+    width: 100%;
     background-color: green;
+}
+
+.square {
+    border: 1px black dashed;
+}
+/* /MAIN */
+/* FOOTERCONTAINER */
+.first-footer {
+    background-color: rgb(32, 30, 30);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+/* FOOTERTOKEN */
+
+.mg {
+    margin-top: 5px;
+}
+
+.pinkret {
+    height: 350px;
+    width: 40%;
+    background-color: rgb(216, 135, 149);
+}
+
+.blueret {
+    height: 350px;
+    width: 15%;
+    background-color: aquamarine;
+}
+
+/* SECONDFOOTER */
+
+.second-footer {
+    background-color: rgb(32, 30, 30);
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+}
+
+.footer-navigation {
+    width: 60%;
+    background-color: rgb(75, 160, 160);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: 5px;
+    background-color: rgb(190, 193, 196);
+    border: 1px black dashed;
 }
