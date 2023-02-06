@@ -1,16 +1,17 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* HEADING */
 .flex-header{
     background-color: lightblue;
-     display: flex;
+    display: flex;
     justify-content: center;
     
 }
-
+/* NAVIGATION */
 .nav-flex{
     width: 60%;
     display: flex;
@@ -43,4 +44,68 @@ a{
     display: flex;
     justify-content: flex-end;
     padding: 5px;
+}
+/* ENDNAVIGATION */
+
+/* FIRSTSECTION */
+.header-section {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fuskia{
+    width: 700px;
+    background-color: fuchsia;
+    height: 300px;
+}
+/* ENDFIRSTSECTION */
+
+/* MAIN */
+
+/* CONTENITOR SECTION */
+.white {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big-gray {
+    height: 800px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SQUARE */
+.blue {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(20, 67, 194);
+}
+
+.pink {
+    height: 300px;
+    width: 350px;
+    background-color: pink;
+}
+
+.green {
+    height:700px;
+    width: 850px;
+    background-color: green;
 }
