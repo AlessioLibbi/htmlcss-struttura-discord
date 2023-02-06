@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-header{
+    background-color: lightblue;
+     display: flex;
+    justify-content: center;
+    
+}
+
+.nav-flex{
+    width: 60%;
+    display: flex;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav > div {
+    border: 1px black dashed;
+}
+
+.link{
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+
+.login{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
